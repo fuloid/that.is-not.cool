@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon!</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0e1017;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.emoji {
+  font-size: 3rem; /* text-5xl equivalent */
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.footer {
+  position: absolute;
+  bottom: 2rem; /* bottom-8 equivalent */
+  color: white;
+  opacity: 0.5;
+  font-size: 0.875rem; /* text-sm equivalent */
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .emoji {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .emoji {
+    font-size: 4rem;
+  }
+}
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="emoji">😕</div>
+      <div class="footer">Coming soon.</div>
+    </div>
+  </body>
+</html>
